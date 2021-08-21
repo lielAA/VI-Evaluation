@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/lielAA/VI-Evaluation">
     <img src="web/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
