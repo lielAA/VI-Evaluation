@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VI-Evaluation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <style>
+        .company_list{
+            width:500px;
+            border:2px solid #989898;
+            padding:1rem;
+            padding-top: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+    </style>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return (event.keyCode != 116)">
+    <aside class="sidebar pos-absolute z-2" data-role="sidebar" data-toggle="#sidebar-toggle-3" id="sb3" data-shift=".shifted-content">
+        <div class="sidebar-header" data-image="images/sb-bg-1.jpg">
+            <div class="avatar">
+                <img src="images/stock-icon-26.jpg">
+            </div>
+            <span class="title fg-white">Value Investing Tool </span>
+            <span class="subtitle fg-white"> 2021 © Liel Adir</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li id="homescreen"><a onclick="show_my_companies()"><span class="mif-home icon"></span>My Companies</a></li>
+            <li id="resultscreen"><a><span class="mif-network-wifi icon" ></span>Company Valuation</a></li>
+            <li class="divider"></li>
+            <li><a><span class="mif-exit icon" id="exitscreen"></span>Exit</a></li>
+        </ul>
+    </aside>
+    <div class="shifted-content h-100 p-ab">
+        <div class="app-bar pos-absolute bg-red z-1" data-role="appbar">
+            <button class="app-bar-item c-pointer" id="sidebar-toggle-3">
+                <span class="mif-menu fg-white"></span>
+                <span class="fg-white" style="font-size:18px">Menu</span>
+            </button>
+        </div>
+        <nav data-role="ribbonmenu">
+            <ul class="tabs-holder" id="tickerTabs">
+
+            </ul>
+        </nav>
+        <div class="grid">
+            <div id="search_add_list_section" class="tabcontent row offset-2">
+                    <div class="cell-6">
+                        <input id="tickerName"
+                               type="text"
+                               data-role="materialinput"
+                               data-icon="<span class='mif-tag'>"
+                               data-label="ticker"
+                               placeholder="Enter company ticker"
+                               onfocus="this.value=''">
+                               <!-- oninput="get_ticker_list()" >-->
+                    </div>
+                    <div class="cell-2">
+                        <button class="button size-large" type="submit" id="btnAddCompany" data-role="popover" data-popover-position="bottom" data-popover-text="add ticker" data-popover-hide="1000">
+                            <span class="mif-plus"></span>
+                        </button>
+                    </div>
+                <div class="company_list list-group grid">
+                    <ul id="companyList" data-role="listview" data-view="table" data-select-node="true"
+                        data-structure='{"name": true, "date": true}'>
+
+                    </ul>
+                    <div class="offset-11 cell-2">
+                        <button class="button size-small" data-role="popover" data-popover-position="bottom" data-popover-text="remove ticker" type="submit" id="btnRemoveCompany" data-popover-hide="1000" onclick="remove_ticker()">
+                            <span class="mif-minus"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <ul id="tabs_result">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    <script type="text/javascript" src="myScript.js">
+
+    </script>
+</body>
+</html>
