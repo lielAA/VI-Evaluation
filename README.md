@@ -44,7 +44,7 @@ https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG
 
 ![ScreenShot](https://github.com/lielAA/VI-Evaluation/blob/main/web/homePageT.PNG)
 
-<b>VI-Evalutaion Tool<b/ designed for people who are into value investing.
+<b>VI-Evalutaion Tool<b/> designed for people who are into value investing.
 <br>
 The software allows the user to enter a ticker of a company from the American market (NASDAQ / Dow Jones), add it to the list, and get a valuation of the company according to its financial statements as reported on the sec.gov website.
 <br>
