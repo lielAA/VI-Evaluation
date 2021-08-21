@@ -9,9 +9,14 @@
   <p align="center">
     Value Investing Evaluation Tool
     <br />
-    <a href="https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG">Report Bug</a>
+    <a href="https://github.com/lielAA/VI-Evaluation/issues">Report Bug</a>
   </p>
 </p>
+
+
+
+
+https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -35,7 +40,9 @@
 </details>
 
 
+## About The Project
 
+[![Product Name Screen Shot][product-screenshot]]
 
 
 
