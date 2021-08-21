@@ -13,11 +13,6 @@
   </p>
 </p>
 
-
-
-
-https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG
-
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -61,33 +56,3 @@ For each company, Excel reports are downloaded, relevant parameters are retrieve
 * [js](https://www.javascript.com/)
 * [Jquery](https://jquery.com/)
 * [metroUI](https://metroui.org.ua/index.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
