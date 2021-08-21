@@ -1,4 +1,4 @@
 *.python linguist-detectable=true
 *.javascript linguist-detectable=true
-*.html linguist-detectable=true
-*.XSLT linguist-detectable=true
+*.html linguist-detectable=false
+*.XSLT linguist-detectable=false
