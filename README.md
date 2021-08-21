@@ -42,7 +42,7 @@ https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+[![Product Name Screen Shot][product-screenshot]]()
 
 
 
