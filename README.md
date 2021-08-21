@@ -49,11 +49,17 @@ https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG
 
 #### BackEnd Side
 
-* [Python]()
-* [eel]()
-* [openpyxl]()
+* [Python](https://www.python.org/)
+* [eel](https://github.com/ChrisKnott/Eel)
+* [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
 #### FrontEnd Side
+
+* [HTML](https://html.com/)
+* [css](https://css-tricks.com/)
+* [js](https://www.javascript.com/)
+* [Jquery](https://jquery.com/)
+* [metroUI](https://metroui.org.ua/index.html)
 
 
 
