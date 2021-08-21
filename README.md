@@ -45,9 +45,15 @@ https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG
 ![ScreenShot](https://github.com/lielAA/VI-Evaluation/blob/main/web/homePageT.PNG)
 
 
+### Built With
 
+#### BackEnd Side
 
+* [Python]()
+* [eel]()
+* [openpyxl]()
 
+#### FrontEnd Side
 
 
 
