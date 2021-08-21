@@ -9,7 +9,7 @@
   <p align="center">
     Value Investing Evaluation Tool
     <br />
-    <a href="https://github.com/lielAA/VI-Evaluation/issues">Report Bug</a>
+    <a href="https://github.com/lielAA/VI-Evaluation/blob/main/web/comp_evaluation_page.PNG">Report Bug</a>
   </p>
 </p>
 
